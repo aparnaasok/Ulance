@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="100dp"
+    android:background="@drawable/reg"
+    tools:context=".Custreg">
+    <TextView
+        android:textColor="#fff"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Customer details"/>
+    <EditText
+        android:textColorHint="#fff"
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cname"
+        android:inputType="textPersonName"
+        android:hint="Customer's Name"/>
+    <EditText
+        android:textColorHint="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cphno"
+        android:inputType="phone"
+        android:maxLength="15"
+        android:hint="Mobile"/>
+    <EditText
+        android:textColorHint="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email address"
+        android:id="@+id/cemail"
+        android:inputType="textEmailAddress"/>
+
+    <EditText
+        android:textColorHint="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/cpass"
+        android:maxLength="15"/>
+    <EditText
+        android:textColorHint="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:id="@+id/cconpass"
+        android:maxLength="15"/>
+
+
+    <Button
+        android:background="@drawable/buttonstyleelector"
+        android:layout_margin="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Application"
+        android:id="@+id/submitcustdet"/>
+
+
+
+
+
+
+</LinearLayout>

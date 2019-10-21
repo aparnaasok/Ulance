@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1049885045036",
+    "firebase_url": "https://ulance-7bbef.firebaseio.com",
+    "project_id": "ulance-7bbef",
+    "storage_bucket": "ulance-7bbef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049885045036:android:270e8fff125e5b26f4fc89",
+        "android_client_info": {
+          "package_name": "com.mace.ulance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1049885045036-jqjfrfrii3lnvio6742a0m8n3nv44tn8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mace.ulance",
+            "certificate_hash": "0d2561533a31e0d62af2678ed98496d276bca734"
+          }
+        },
+        {
+          "client_id": "1049885045036-phq1nmhnldcj5bfgussa0nrlrr6ldrh9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAamM4jU7lExW_OcWOU2n1k29ce0H2BWJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1049885045036-phq1nmhnldcj5bfgussa0nrlrr6ldrh9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ulance</string>
+    <string name="title_activity_driver_map">Map</string>
+
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile number</string>
+    <string name="dateerror">Enter a valid date</string>
+    <string name="ageerror">Enter a valid age</string>
+    <string name="invalid_name">Field cannot be empty</string>
+    <string name="invalid_password">Invalid password(minimum length=8)</string>
+    <string name="invalid_confirm_password">Confirmation failed!></string>
+    <string name="phone_number">Phone Number</string>
+    <string name="generate_otp">Generate OTP</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="verify_sign_in">Verify and Sign In</string>
+    <string name="sign_out">sign out</string>
+
+
+</resources>

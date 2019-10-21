@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingTop="100dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverLoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/yulo">
+
+    <EditText
+      android:textColorHint="#fff"
+        android:background="@drawable/edittextfile"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Email"
+        android:id="@+id/email"
+        ></EditText>
+    <EditText
+        android:textColorHint="#fff"
+        android:background="@drawable/edittextfile"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        ></EditText>
+    <Button
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonstyleelector"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:id="@+id/login"
+        ></Button>
+    <Button
+        android:background="@drawable/buttonstyleelector"
+        android:textColor="#fff"
+
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="Sign Up"
+        android:id="@+id/registration">
+
+
+    </Button>
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    android:background="@drawable/reg"
+    tools:context=".DriverReg">
+    <TextView
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Applicant details"/>
+    <EditText
+        android:textColorHint="#fff"
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dname"
+        android:inputType="textPersonName"
+        android:hint="Driver Name"/>
+    <EditText
+        android:textColorHint="#fff"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dphno"
+        android:inputType="phone"
+        android:maxLength="15"
+        android:hint="Mobile"/>
+    <EditText
+        android:textColorHint="#fff"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email address"
+        android:id="@+id/demail"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:textColorHint="#fff"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle owner Name"
+        android:id="@+id/oname"/>
+
+    <TextView
+        android:paddingTop="30dp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vehicle details"/>
+    <EditText
+        android:textColorHint="#fff"
+        android:paddingTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Vehicle Name"
+        android:id="@+id/make"
+        android:inputType="text" />
+    <EditText
+        android:textColorHint="#fff"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model"
+        android:id="@+id/model"
+        android:inputType="text"/>
+    <EditText
+        android:textColorHint="#fff"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Year"
+        android:inputType="number"
+        android:maxLength="4"
+        android:id="@+id/year"/>
+    <EditText
+        android:textColorHint="#fff"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Registration Number"
+        android:id="@+id/reg_no"/>
+    <EditText
+        android:textColorHint="#fff"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/dpass"
+        android:maxLength="15"/>
+    <EditText
+        android:textColorHint="#fff"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:id="@+id/dconpass"
+        android:maxLength="15"/>
+
+
+    <Button
+        android:background="@drawable/buttonstyleelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Application"
+        android:id="@+id/regbutton"/>
+
+
+
+
+
+
+</LinearLayout>
